@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="icon" href="../imagens/favicon.ico"/>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Eventos</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  
+  <div style="position: absolute; top: 0; right: 0;" id="cabecalho">
+    <table>
+      <tr>
+        <td><a href="index.html" >HOME</a></td>
+        <td style="border-left: 1px solid black;"><a href="EVENTOS.html" >EVENTOS</a></td>
+        <td style="border-left: 1px solid black;"><a href="CONTATO.html" >CONTATO</a></td>
+        <td style="border-left: 1px solid black;"><a href="SOBRE.html" >SOBRE</a></td>
+        <td style="border-left: 1px solid black;"><a href="ENTRAR.html" >ENTRAR</a></td>
+      </tr>
+    </table>
+  </div>
+
+  <br/><br/><img src='../imagens/Logo.jpg' />
+  <h2>INSCREVA-SE</h2>
+
+  <form>
+    <fieldset>
+      Evento 
+      <select name="Eventos" required>
+        <option value="SELECIONE">-- Selecione --</option>
+        <option value="voe_sem_asas">Voe sem asas</option>
+        <option value="festa_junina">Festa junina</option>
+        <option value="semana_de_tecnologia">Semana de tecnologia</option>
+      </select>
+    </fieldset>  
+  </form>
+  
+  <form>
+    <fieldset>
+      <legend>Informações de Acesso</legend>
+      Usuário <input type="text" name="usuario" required/><br/><br/>
+      Senha <input type="password" name="senha" required/><br/><br/>
+      Confirme a Senha <input type="password" name="senha1" required/><br/><br/>
+    </fieldset>
+  </form>
+
+  <form>
+    <fieldset>
+      <legend>Informações Pessoais</legend>
+      Nome Completo <input type="text" name="usuario" required/><br/><br/>
+      E-mail <input type="password" name="senha" required/><br/><br/>
+      Celular <input type="password" name="senha1" required/> (99) 99999-9999<br/><br/>
+      <fieldset>
+        <legend>Sexo</legend>
+        Masculino  <input type="radio" value="M" name="sexo"/> 
+        Feminino  <input type="radio" value="F" name="sexo"/>
+      </fieldset><br/>
+      Data de Nascimento <input type="date" name="data_nasc" required/><br/><br/>
+      Cor Favorita <input type="color" name="cor"/><br/><br/>
+      Perfil no Github <input type="url" name="github" required/><br/><br/>
+    </fieldset></br>
+
+    <button type="submit">Inscrever</button> 
+    <button type="reset">Limpar</button>
+  </form><br/>
+
+  <div>
+    <br />
+      <a href="https://www.facebook.com/ifsppirituba/?locale=pt_BR"><img src="../imagens/facebook.jpg" width="40"/></a>
+      <font size="4"><p>IFSP - Câmpus Pirituba - Av. Mutinga, 951 - Jardim Santo Elias - CEP 05110-000 - São Paulo/SP - Contato: (011) 2504-0100</p></font>
+    <br />
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
