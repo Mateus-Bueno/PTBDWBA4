@@ -6,23 +6,36 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>Engenharia de Produção</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="../../style.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
-  <div style="position: absolute; top: 0; right: 0;" id="cabecalho">
+  <div id="cabecalho" class="cabecalho">
     <table>
       <tr>
-        <td><a href="index.html" >HOME</a></td>
-        <td style="border-left: 1px solid black;"><a href="EVENTOS.html" >EVENTOS</a></td>
-        <td style="border-left: 1px solid black;"><a href="CONTATO.html" >CONTATO</a></td>
-        <td style="border-left: 1px solid black;"><a href="SOBRE.html" >SOBRE</a></td>
-        <td style="border-left: 1px solid black;"><a href="ENTRAR.html" >ENTRAR</a></td>
+        <td><a href="../index.html" >HOME</a></td>
+        <td><a href="../EVENTOS.html" >EVENTOS</a></td>
+        <td><a href="../CONTATO.html" >CONTATO</a></td>
+        <td><div class="dropdown">
+          <button class="dropbtn">CURSOS</button>
+          <div class="dropdown-content">
+            <a href="./ADS.html"">Análise e Desenvolvimento de Sistemas</a>
+            <a href="./EP.html"">Engenharia de Produção</a>
+            <a href="./GTI.html"">Gestão em Tecnologia da Informação</a>
+            <a href="./Letras.html"">Letras</a>
+            <a href="./GP.html"">Gestão Pública</a>
+          </div>
+        </div></td>
+        <td><a href="ENTRAR.html" >ENTRAR</a></td>
+        <td style="position: absolute; right: 0;"><a href="SOBRE.html" >SOBRE</a></td>
+
       </tr>
     </table>
   </div>
 
-  <br/><br/><img src='../../imagens/Logo.jpg' />
+  <div class="logo">
+    <br/><br/><img src='../../imagens/Logo.jpg' />
+  </div>
 
   <h4>Engenharia de Produção</h4>
 

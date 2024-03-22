@@ -6,63 +6,58 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>HOME - IFSP - Pirituba - DWBA4</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="../style.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
 
-  <div style="position: absolute; top: 0; right: 0;" id="cabecalho">
+  <div id="cabecalho" class="cabecalho">
     <table>
       <tr>
         <td><a href="index.html" >HOME</a></td>
-        <td style="border-left: 1px solid black;"><a href="EVENTOS.html" >EVENTOS</a></td>
-        <td style="border-left: 1px solid black;"><a href="CONTATO.html" >CONTATO</a></td>
-        <td style="border-left: 1px solid black;"><a href="SOBRE.html" >SOBRE</a></td>
-        <td style="border-left: 1px solid black;"><a href="ENTRAR.html" >ENTRAR</a></td>
+        <td><a href="EVENTOS.html" >EVENTOS</a></td>
+        <td><a href="CONTATO.html" >CONTATO</a></td>
+        <td><div class="dropdown">
+          <button class="dropbtn">CURSOS</button>
+          <div class="dropdown-content">
+            <a href="./cursos/ADS.html"">Análise e Desenvolvimento de Sistemas</a>
+            <a href="./cursos/EP.html"">Engenharia de Produção</a>
+            <a href="./cursos/GTI.html"">Gestão em Tecnologia da Informação</a>
+            <a href="./cursos/Letras.html"">Letras</a>
+            <a href="./cursos/GP.html"">Gestão Pública</a>
+          </div>
+        </div></td>
+        <td><a href="ENTRAR.html" >ENTRAR</a></td>
+        <td style="position: absolute; right: 0;"><a href="SOBRE.html" >SOBRE</a></td>
+        
       </tr>
     </table>
   </div>
-  
-  <br/><br/><img src='../imagens/Logo.jpg' />
 
-  <div>
-    <h4>Cursos</h4>
-    <ul>
-      <li><a href="./cursos/ADS.html"">Análise e Desenvolvimento de Sistemas</a></li>
-      <li><a href="./cursos/EP.html"">Engenharia de Produção</a></li>
-      <li><a href="./cursos/GTI.html"">Gestão em Tecnologia da Informação</a></li>
-      <li><a href="./cursos/Letras.html"">Letras</a></li>
-      <li><a href="./cursos/GP.html"">Gestão Pública</a></li>
-    </ul>
+  <div class="logo">
+    <br/><br/><img src='../imagens/Logo.jpg' />
   </div>
 
-  <div>
-    <h4>Eventos</h4>
+  <div style="text-align: center;">
+    <h1>Acontece no IFSP!</h1>
     <blockquote>
-      <img src='../imagens/SEJA_RARO.jpg' width='600px' />
-      <font size="4"><p>Aniversario do IFSP - Pirituba - Palestra Augusto Aielo<p/></font>
+      <img src='../imagens/SEJA_RARO.jpg' width='800px' style="border-radius: 50%"/>
+      <div class="box">
+        <font size="4"><p>Aniversario do IFSP - Pirituba - Palestra Augusto Aielo<p/></font>
+      </div>
     </blockquote>
 
 
-  </div>
+  </div><br/>
 
-  <div>
-    <h2>Sobre a Biblioteca</h2>
-    <img src='../imagens/library.jpeg' />
-
-    <h2>Conheça os novos títulos disponíveis na nossa biblioteca</h2>
-    <font size="3"><b>Publicado: Quarta-feira, 14 de agosto de 2019</b></font>
-  </div>
-
-  <h2>Conheça o SUAP</h2>
-  
-  <div>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/yVbOcB1ryh0" frameborder="0" allowfullscreen></iframe>
-  </div>
+  <div style="text-align: center;">
+    <h2>Conheça os desafios de inovação</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/5g5LQe3m8Po" frameborder="0" allowfullscreen></iframe>
+  </div><br/><br/>
 
   <div>
     <br />
-      <a href="#cabecalho"><img src="../imagens/up_arrow.jpg" /></a>| <a href="https://www.facebook.com/ifsppirituba/?locale=pt_BR"><img src="../imagens/facebook.jpg" width="40"/></a>
+      <a href="https://www.facebook.com/ifsppirituba/?locale=pt_BR"><img src="../imagens/facebook.jpg" width="40"/></a>
       <font size="4"><p>IFSP - Câmpus Pirituba - Av. Mutinga, 951 - Jardim Santo Elias - CEP 05110-000 - São Paulo/SP - Contato: (011) 2504-0100</p></font>
     <br />
   </div>
