@@ -80,7 +80,11 @@ body {
   .dropdown:hover .dropdown-content {display: block;}
 
   /* Change the background color of the dropdown button when the dropdown content is shown */
-  .dropdown:hover .dropbtn {background-color: red;}
+  .dropdown:hover .dropbtn {
+    background-color: red;
+    border: 1px solid red;
+    border-radius: 0px;
+  }
 
   p.right{
     text-align: right;
