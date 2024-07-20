@@ -81,7 +81,7 @@ body {
 
   .dropdown:hover .dropbtn {
     background-color: red;
-    border: 5px solid red;
+    border: 1px solid red;
     border-radius: 0px;
   }
 
