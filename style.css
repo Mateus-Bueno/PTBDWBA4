@@ -157,6 +157,7 @@ body {
   }
 
   .slideshow-container {
+    height: 600px;
     max-width: 800px;
     position: relative;
     margin: auto;
